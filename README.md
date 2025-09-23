@@ -14,3 +14,4 @@ Se planteó una base de datos que permite:
 - Consultar el tipo de vehículo (SUV, camioneta, auto, etc.).
 - Consultar la marca del vehículo.
 El objetivo es poder organizar y acceder fácilmente a la información de los vehículos según diferentes criterios, usando relaciones entre tablas.
+![DER](Diagrama%20de%20entidad%20relación%20%28DER%29.png)
