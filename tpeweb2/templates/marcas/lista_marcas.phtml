@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listado marcas</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+
+    <h1>Lista de marcas</h1>
+    <ul>
+        <?php foreach ($marcas as $marca): ?>
+            <li>
+                <!-- link con el modelo del vehiculo   -->
+                <a href="<?= BASE_URL ?>marca/<?= $marca->id_marca ?>"><?= $marca->marca ?></a>
+                <a href="<?= BASE_URL ?>marca/<?= $marca->id_marca ?>">detalle</a>
+                <!--por cada link se crea un boton para agregar un vehiculo-->
+                <a href="<?= BASE_URL ?>borrarMarca/<?= $marca->id_marca ?>">borrar </a>
+                <a href="<?= BASE_URL ?>editMarca/<?= $marca->id_marca ?>">editar</a>
+            </li>
+        <?php endforeach; ?>
+        <a href="<?= BASE_URL ?>agregarMarca">Insertar nueva marca</a>
+    </ul>
+   
+</body>
+
+</html>
+
