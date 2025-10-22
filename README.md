@@ -18,15 +18,17 @@ Se planteó una base de datos que permite:
 - consultar detalles sobre la marca
 El objetivo es poder organizar y acceder fácilmente a la información de los vehículos según diferentes criterios, usando relaciones entre tablas.
 
-## Como desplegar el sitio 
-Instrucciones para importar la base de datos en PHPMyAdmin
+## Cómo desplegar el sitio
 
-1.Abre phpMyAdmin en tu navegador.
-2.Crea una nueva base de datos llamada db_concesionaria.
-3.Selecciona la base de datos db_concesionaria.
-4.Haz clic en la pestaña Importar.
-5.Haz clic en Seleccionar archivo y elige el archivo database/db_concesionaria.sql de este proyecto.
-6.Presiona Continuar para importar las tablas y datos.
+Instrucciones para importar la base de datos en PHPMyAdmin:
+
+1. Abre phpMyAdmin en tu navegador.
+2. Crea una nueva base de datos llamada `db_concesionaria`.
+3. Selecciona la base de datos `db_concesionaria`.
+4. Haz clic en la pestaña **Importar**.
+5. Haz clic en **Seleccionar archivo** y elige el archivo `database/db_concesionaria.sql` de este proyecto.
+6. Presiona **Continuar** para importar las tablas y datos.
+
 
 ## manejo de sessiones
 usuario: webadmin
