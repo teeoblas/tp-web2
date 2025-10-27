@@ -40,4 +40,4 @@ Instrucciones para importar la base de datos en **PHPMyAdmin**:
 - [http://localhost/tpeweb2/login](http://localhost/tpeweb2/login) → muestra formulario de inicio de sesión
 
 ## Diagrama de Entidad-Relación (DER)
-![DER](DER.png.png)
+![DER](DER.png)
