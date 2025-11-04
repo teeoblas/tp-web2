@@ -152,4 +152,5 @@ class carsController
 
         require './templates/cars/form_editCar.phtml';
     }
+
 }
