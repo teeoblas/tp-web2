@@ -45,6 +45,8 @@ Instrucciones para importar la base de datos en **PHPMyAdmin**:
 - [http://localhost/tpeweb2/marcas](http://localhost/tpeweb2/marcas) → muestra solo las marcas  
 - [http://localhost/tpeweb2/login](http://localhost/tpeweb2/login) → muestra formulario de inicio de sesión
 
+## tener en cuenta:
+-el nombre de carpeta que se debe usar es tpeweb2, en caso de que les clone una carpeta y adentro otra que se llama tpeweb2 usar solo tpeweb2, aclaro por las dudas
   
 ## Diagrama de Entidad-Relación (DER)
 ![DER](DER.png)
