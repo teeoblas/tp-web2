@@ -9,6 +9,12 @@
 ## Temática del TPE
 concesionaria de autos
 
+## Correcciones 
+- se ocultaron los botones con las acciones del crud cuando el usuario no esta logueado.
+-  incluimos el archivo .htacces
+-  se arreglo el atributo que guarda la contraseña hasheada en la db
+-  se elimino el uso de echos
+
 ## Descripción
 Este TPE consiste en gestionar información de vehículos, tanto nuevos como usados.  
 Se planteó una base de datos que permite:  
@@ -39,5 +45,6 @@ Instrucciones para importar la base de datos en **PHPMyAdmin**:
 - [http://localhost/tpeweb2/marcas](http://localhost/tpeweb2/marcas) → muestra solo las marcas  
 - [http://localhost/tpeweb2/login](http://localhost/tpeweb2/login) → muestra formulario de inicio de sesión
 
+  
 ## Diagrama de Entidad-Relación (DER)
 ![DER](DER.png)
